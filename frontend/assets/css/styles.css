@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; background:#f8fafc; margin:0; }
+.wrap { max-width:960px; margin:56px auto; padding:0 16px; }
+button { padding:10px 16px; border-radius:12px; border:1px solid #e5e7eb; background:white; cursor:pointer; }
+pre { background:#0b1020; color:#e6edf3; padding:16px; border-radius:12px; overflow:auto; }

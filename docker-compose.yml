@@ -1,0 +1,14 @@
+# Opcional si deseas probar en Render con Compose Preview
+services:
+  ws-backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+  ws-frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+  ws-n8n:
+    image: n8nio/n8n:latest
+    ports:
+      - "5678:5678"
